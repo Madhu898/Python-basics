@@ -1,0 +1,12 @@
+#try and exept is used when if there is bugs in code 
+try:
+    a=int(input("enter an number "))
+    b=int(input("enter another number "))
+    c=a/b 
+    print(f"the division of two numberss is {c} ")
+       
+except Exception as a : #here its prints the type of error and it is stored  in e 
+    print(f"error occured and  the error  is :- {a}  ")
+finally:#it  prints the statements after the bug statements still if there is a bug or there is not a bug
+    print("the program is closed ")
+    
