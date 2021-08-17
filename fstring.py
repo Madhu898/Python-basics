@@ -19,7 +19,7 @@ while no_of_chance<chance:
         computer_point = computer_point + 1
         print(f"your guess {_input} and computer guess is {_random} \n")
         print("computer wins 1 point \n")
-        print(f"computer_point is {computer_point} and your point is {human_point} \n ")
+        print(f"computer_point is {computer_point} and your point is {human_point} \n ")#this f strings are used to print the out put  in a singgle line with strings without specifying the comma
 
     elif _input == "s" and _random == "w":
         human_point = human_point + 1
