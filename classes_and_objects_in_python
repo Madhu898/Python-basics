@@ -1,0 +1,19 @@
+class Nit:
+    
+     #print(f"the institution name is {self.institution_name} \nthe place where it is located is {self.place}")
+    def __init__(self):        
+       self.college=input("enter the college name ")
+       self.place=input("enter the place of college ")      
+       print(f"the college Name is: {self.college}\nthe place where it is located is : {self.place}")
+    def put():
+        v=input("enter the state of the college where is located ")
+
+class student(Nit):
+    def __init__(self):
+        self.name=input("enter the name of the student ")
+        self.clas=input("enter the class of the student ")
+        self.age=input("enter the age of the student ")
+        print(f"\nthe name of the student is : {self.name} \nthe class of the student is :{self.clas}\nthe age of the student is :{self.age}")
+
+clg=student()
+clg.put()
