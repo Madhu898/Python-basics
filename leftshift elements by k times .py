@@ -1,4 +1,11 @@
-
+					'''    optimised code 
+									def rotateLeft(d, arr):
+									    res=arr[0:d]
+									    for i in range(len(arr)-d):
+										arr[i]=arr[i+d]
+									    arr[-d:]=res
+									    return arr
+'''
 '''
                                                 input 1  = 
                                                               5                  =  no of elements in list
